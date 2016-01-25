@@ -73,7 +73,6 @@ def _handle_zeros_in_scale(scale, copy=True):
             # New array to avoid side-effects
             scale = scale.copy()
         scale[scale == 0.0] = 1.0
-        print "hello"
         return scale
 
 
